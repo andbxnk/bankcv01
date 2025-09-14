@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Bank CV V1.0</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap");
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #000000;
+      }
+      .sau-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 100px;
+        position: relative;
+      }
+      .logo-bar {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .menu-bar a {
+        text-decoration: none;
+        font-family: "Monomaniac One";
+        color: #fff;
+        font-size: 1rem;
+        margin: 0 10px;
+      }
+      .menu-bar a:hover {
+        color: #ff7b00;
+      }
+      .logo-bar img {
+        width: 50px;
+      }
+      .fa-brands {
+        color: #fff;
+      }
+      .social-bar i {
+        font-size: 1.3rem;
+        margin: 0 10px;
+      }
+      .social-bar i:hover {
+        color: #fbff00;
+        cursor: pointer;
+      }
+      .title-section {
+        color: #fff;
+      }
+      .title-section {
+        text-align: center;
+        margin-top: 100px;
+      }
+      .title-section h1 {
+        font-family: "Monomaniac One";
+      }
+      .a-tile {
+        font-size: 2rem;
+        color: #fff;
+      }
+      #job-title {
+        font-size: 3rem;
+        color: #01d5a2;
+      }
+      .img-section {
+        text-align: center;
+        margin: 100px 0;
+      }
+      .img-show {
+        display: inline-block;
+        padding: 10px;
+        border: 2px solid #01D5A2;
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+      }
+      .img-show img {
+        width: 250px;
+        height: 250px;
+        border-radius: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- bar -->
+    <div class="sau-bar">
+      <div class="menu-bar">
+        <a href="#">Portfolio</a>
+        <a href="#">About Me</a>
+        <a href="#">Get In Touch</a>
+      </div>
+      <div class="logo-bar">
+        <img src="./images/logo.png" alt="logo" />
+      </div>
+      <div class="social-bar">
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+    </div>
+
+    <!-- title section -->
+    <div class="title-section">
+      <h1 class="a-tile">Tanabut Watayakone</h1>
+      <h1 id="job-title">Freelance Web Developer</h1>
+      <h1 class="a-tile">Based in Thailand</h1>
+    </div>
+
+    <!-- img section -->
+    <div class="img-section">
+      <div class="img-show">
+        <img src="./images/me.png" alt="me" />
+      </div>
+    </div>
+  </body>
+</html>
